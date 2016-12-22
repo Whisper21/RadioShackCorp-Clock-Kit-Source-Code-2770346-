@@ -1,0 +1,161 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F690 ]
+[d frameptr 6 ]
+"28 C:\Users\Mike\Downloads\2770346_Clock_Kit_Source_Code\Clock.X\main.c
+[e E1478 SysState `uc
+NormalMode 0
+Setting 1
+]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"36 C:\Users\Mike\Downloads\2770346_Clock_Kit_Source_Code\Clock.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"125
+[v _flash_digital flash_digital `(v  1 e 1 0 ]
+"190
+[v _clock_increase clock_increase `(v  1 e 1 0 ]
+"210
+[v _detect_key detect_key `(v  1 e 1 0 ]
+"289
+[v _ISR ISR `II(v  1 e 1 0 ]
+"55 C:\Program Files (x86)\Microchip\xc8\v1.38\include\pic16f690.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
+"160
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"209
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"247
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+[s S25 . 1 `uc 1 RABIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RABIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"331
+[u S34 . 1 `S25 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES34  1 e 1 @11 ]
+"1143
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @129 ]
+"1212
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1261
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1299
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1505
+[v _OSCCON OSCCON `VEuc  1 e 1 @143 ]
+"2618
+[v _WPUB WPUB `VEuc  1 e 1 @277 ]
+"2772
+[v _CM1CON0 CM1CON0 `VEuc  1 e 1 @281 ]
+"2836
+[v _CM2CON0 CM2CON0 `VEuc  1 e 1 @282 ]
+"2938
+[v _ANSEL ANSEL `VEuc  1 e 1 @286 ]
+"18 C:\Users\Mike\Downloads\2770346_Clock_Kit_Source_Code\Clock.X\main.c
+[v _seg_tab seg_tab `DCC[10]uc  1 e 10 0 ]
+"19
+[v _digital digital `VE[4]uc  1 e 4 0 ]
+"20
+[v _show_dots show_dots `VEuc  1 e 1 0 ]
+"21
+[v _flash_dots flash_dots `VEuc  1 e 1 0 ]
+"23
+[v _key_value key_value `VEuc  1 e 1 0 ]
+"24
+[v _key_delay_time key_delay_time `VEuc  1 e 1 0 ]
+"25
+[v _no_key_time no_key_time `VEui  1 e 2 0 ]
+"28
+[v _sysstate sysstate `E1478  1 e 1 0 ]
+"29
+[v _isPowerSaveMode isPowerSaveMode `VEuc  1 e 1 0 ]
+"30
+[v _power_save_timeout power_save_timeout `VEui  1 e 2 0 ]
+"31
+[v _hours hours `VEuc  1 e 1 0 ]
+[v _minutes minutes `VEuc  1 e 1 0 ]
+[v _seconds seconds `VEuc  1 e 1 0 ]
+"36
+[v _main main `(v  1 e 1 0 ]
+{
+"122
+} 0
+"289
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"291
+[v ISR@cnt1 cnt1 `uc  1 s 1 cnt1 ]
+[v ISR@cnt2 cnt2 `uc  1 s 1 cnt2 ]
+"292
+[v ISR@timming_cnt timming_cnt `i  1 s 2 timming_cnt ]
+"293
+[v ISR@x x `uc  1 s 1 x ]
+"343
+} 0
+"125
+[v _flash_digital flash_digital `(v  1 e 1 0 ]
+{
+"127
+[v flash_digital@curseg curseg `uc  1 s 1 curseg ]
+[v flash_digital@show_dots show_dots `uc  1 s 1 show_dots ]
+"129
+[v flash_digital@counter counter `i  1 s 2 counter ]
+"187
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"11
+[v ___awmod@sign sign `uc  1 a 1 6 ]
+[v ___awmod@counter counter `uc  1 a 1 5 ]
+"6
+[v ___awmod@divisor divisor `i  1 p 2 0 ]
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+"35
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 7 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 6 ]
+[v ___awdiv@counter counter `uc  1 a 1 5 ]
+"6
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"42
+} 0
+"210 C:\Users\Mike\Downloads\2770346_Clock_Kit_Source_Code\Clock.X\main.c
+[v _detect_key detect_key `(v  1 e 1 0 ]
+{
+"214
+[v detect_key@key key `uc  1 a 1 1 ]
+"212
+[v detect_key@keystate keystate `uc  1 s 1 keystate ]
+"213
+[v detect_key@counter counter `uc  1 s 1 counter ]
+"286
+} 0
+"190
+[v _clock_increase clock_increase `(v  1 e 1 0 ]
+{
+"207
+} 0

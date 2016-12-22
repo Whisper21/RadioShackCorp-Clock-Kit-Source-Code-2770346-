@@ -1,0 +1,11 @@
+___awdiv: CODE, 568 0 91
+_flash_digital: CODE, 45 0 193
+__stringtab: STRING, 769 0 6
+_ISR: CODE, 358 0 106
+___awmod: CODE, 659 0 77
+_detect_key: CODE, 464 0 104
+_main: CODE, 238 0 120
+_clock_increase: CODE, 736 0 33
+__initialization: CODE, 19 0 23
+_seg_tab: STRING, 775 0 10
+Total: 763
